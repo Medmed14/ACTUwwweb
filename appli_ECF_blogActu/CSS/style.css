@@ -1,0 +1,99 @@
+/* design header */
+
+
+
+/* design body et main */
+
+
+
+/* design du footer */
+
+.footer{
+    background-color:#343a40;
+    margin-bottom:0%;
+    padding-bottom:2%;
+}
+
+.lien{
+    color:grey;
+}
+
+.lien:hover{
+    color:white;
+}
+
+
+/*////////   design  des  pages   ///////////*/
+
+/* design de articles */
+
+
+#titre{
+    font-weight: 800;
+    font-size: 1.8em;
+}
+
+#auteur{
+    color:rgb(134, 131, 131);
+    
+}
+
+/* design de contact */
+
+#contact{
+    margin-bottom:12%;
+}
+
+#cont{
+    margin-top:12%;
+}
+
+#btnCont{
+    background-color:rgb(45, 6, 136);
+    margin-bottom:10%;
+}
+
+#cont i {
+    
+    color:rgb(160, 14, 14);
+}
+
+/* design de apropos */
+
+#apropos{
+    margin-bottom:10%;
+}
+
+
+@media only screen and (min-width: 501px) and (max-width: 1000px) {
+    #titre{
+        font-weight: 600;
+        font-size: 1.3em;
+    }
+
+    #contenu{
+        font-size: 0.8em;
+    }
+    
+    #auteur{
+        color:rgb(134, 131, 131);
+        font-size: 0.8em;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    #titre{
+        font-weight: 600;
+        font-size: 1em;
+    }
+    
+    #auteur{
+        color:rgb(134, 131, 131);
+        font-size: 0.6em;
+    }
+
+    #contenu{
+        font-size: 0.7em;
+    }
+}
+

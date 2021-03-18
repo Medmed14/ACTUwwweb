@@ -1,0 +1,47 @@
+#intitule{
+    color:rgb(224, 224, 224);
+    font-size:2em ;
+    margin-right:18%;
+
+}
+ body{
+     height:100%;
+     width:100%;
+ }
+
+#formInsc{
+    margin-top:10em;
+    margin-bottom:15em;
+}
+
+#formConn{
+    margin-top:10em;
+    margin-bottom:15em;
+}
+
+#retourSite{
+    color:white;
+    text-decoration: none;
+    
+}
+
+/*  designde l'administration des articles */
+
+#content{
+        overflow : auto;
+        padding:0.5%;
+        width : 90%; 
+        height : 200px; 
+        margin-bottom : 20px; 
+        margin-left: 10%;
+        border : 1px solid #666; 
+        border-radius:10px;
+       }
+
+#titleAdm{
+    
+}
+
+#imageAdm{
+    margin-left:22%;
+}
